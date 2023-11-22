@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesorias</title>
+    <link rel="stylesheet" href="style_acesorias.css">
+</head>
+<body>
+    <div class="caja">
+ <h1>Solicitud de Asesoría Psicológica</h1>
+ <br>
+ <br>
+ <h3> Gracias por diligenciar su asistencia.</h3>
+ <p>Al diligenciar este formulario consiento y autorizo de manera expresa e inequívoca que mis datos personales sean usados por la Corporación Universitaria Latinoamericana, dentro de los términos previstos por la ley 1581 de 2012, el decreto 1377 de 2013 y Acuerdo 041 de 2017;
+     para efectos que la universidad considere pertinentes.</p>
+     <button id="botonDesplazamiento" class="boton">Ir al formulario</button>
+
+     <!-- JavaScript para el desplazamiento -->
+     <script>
+         document.getElementById('botonDesplazamiento').addEventListener('click', function() {
+            var elementoDestino = document.getElementById('formulario');
+             elementoDestino.scrollIntoView({ behavior: 'smooth' });
+         });
+     </script>
+    </div>
+    <img src="Imagen_inicial-cul.png" class="imagen-cul" alt="Psicología - CUL">
+
+    <div class="container">
+    <h4 id="formulario">Asesorias de psicologia</h1>
+<br>
+<form>
+  <fieldset>
+    <legend>Datos</legend>
+  <table>
+  <tbody>
+    <tr>
+      <td>Nombre completo:</td>
+      <td><input type="text" name="ActPrincipal"></td></td>
+      <td>Número de documento: </td>
+      <td><input type="text" name="numEmpleados"></td></td>
+    </tr>
+    <tr>
+      <td>Población:</td>
+      <td>
+                  <select class="form-control" name="subsector" required>
+          	<option selected="selected" value="0">-Seleccione tipo de población-</option>
+          	<option value="1">Estudiante Pregrado</option>
+						<option value="2">Estudinate posgrado</option>
+						<option value="3">Egresado</option>
+						<option value="4">Administrativo</option>
+						<option value="5">Docente</option>
+						<option value="6">Familiar</option>
+						
+          </select>
+      </td>
+      <td>Edad:</td>
+      <td><input type="text" name=""></td>
+    </tr>
+    <tr>
+      <td>Celular</td>
+      <td><input type="text" name=""></td>
+      <td>fecha de nacimiento:</td>
+      <td><input type="text" name=""></td>     
+    </tr>
+    <tr>
+      <td>Correo:</td>
+      <td><input type="text" name=""></td>
+      <td>Semestre:</td>
+      <td><input type="text" name=""></td>   
+    </tr>
+    <tr>
+      
+      <td>Sexo: </td>
+      <td>
+        <select>
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+        </select>    
+      </td>
+    </tr>
+  </tbody>
+</table>
+    </fieldset>
+  <br/>
+    <input type="submit" value="Enviar">
+</form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

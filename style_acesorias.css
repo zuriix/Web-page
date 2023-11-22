@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Skranji:wght@700&display=swap');
+html,body{
+   background-color: aqua;
+ 
+   
+}
+.imagen-cul{
+position: relative;
+top: 1550px;
+left: 82%;
+width: 1000px;
+height: auto;
+}
+
+#botonDesplazamiento {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    padding: 200px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.boton{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+
+}
+
+h4{font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+}
+
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+
+}
+
+.caja{
+    margin: 200px 350px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    align-items:start;
+    
+}
+.container{
+   
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   
+    background-color: #fff; /* Fondo blanco para el formulario */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+
+            background-image: image-set("fondointerno.avif");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    zoom: 400%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo verde oscuro */
+    color: #fff;
+    cursor: pointer;
+}

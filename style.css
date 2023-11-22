@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Skranji:wght@700&display=swap');
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            
+    background-image: image-set("master-investigacion-psicologia.jpg");
+    background-size: 10000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+header {
+    background-color: grey;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    
+}
+
+header button {
+    display: flex;
+    padding: 40px;
+    font-size: 50px;
+    border-bottom: 70px;
+    position:relative;
+  width: auto;
+  display:inline-block;
+  color:#ecf0f1;
+  text-decoration:none;
+  border-radius:5px;
+  border:solid 1px #f39c12;
+  background:#e67e22;
+  text-align:center;
+  padding:16px 18px 14px;
+  margin: 12px;
+  
+  -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+  -webkit-box-shadow: 0px 6px 0px #d35400;
+  -moz-box-shadow: 0px 6px 0px #d35400;
+  box-shadow: 0px 6px 0px #d35400;
+
+}
+.button-3d:active:active{
+    -webkit-box-shadow: 0px 2px 0px #d35400;
+    -moz-box-shadow: 0px 2px 0px #d35400;
+    box-shadow: 0px 2px 0px #d35400;
+    position:relative;
+    top:4px;
+}
+
+.button{
+position: relative;
+margin-left: 4950px;
+left: 500px;
+align-items: end;
+
+
+}
+
+section {
+    margin-top: 120px;
+
+}
+
+section img {
+    
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+section h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 90px
+}
+
+section h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 70px
+}
+
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 70px
+
+}
+
+.box {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+               
+}
+
+.imagen1{
+    width: 160px;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+.imagen3{
+    width: 150px;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+.imagen2{
+    width: 160px;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+.redes{
+    width: 100px; 
+    height: auto;
+    margin-right: 10px;
+    display: inline-block;
+padding: 10px 20px; /* Ajusta el espacio interno del botón según sea necesario */
+margin-right: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+text-decoration: none;
+background-color: black; /* Color de fondo del botón */
+color: #fff; /* Color del texto del botón */
+border: 1px solid #007bff; /* Borde del botón */
+border-radius: 5px;
+margin-top: 20px;
+
+
+}
